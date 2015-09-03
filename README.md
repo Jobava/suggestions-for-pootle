@@ -1,12 +1,12 @@
 Pootle bugs or feature requests:
 
-**Important:**
+**I. Important:**
 
 1. Prevent accidental upload of wrong .po files
 
 2. Preserve edit history per-string if a .po file is uploaded without either "merge with suggestions" or "merge with conflicts as suggestions"
 
-**Less important:**
+**II. Less important:**
 
 1. People should be able to edit their own suggestions, at least for the first 5-10 minutes since submissions, even if they have no other rights
 
@@ -15,7 +15,7 @@ Pootle bugs or feature requests:
 3. Small but annoying bug: Uppercase letters with diacritics are not visible in the edit textbox: https://i.imgur.com/ipbG8eN.png (that should show the string ARATĂ )
 
 
-**Feature requests:**
+**III. Feature requests:**
 
 1. Comments to projects, folders, .po files and individual strings
 
@@ -34,3 +34,5 @@ Pootle bugs or feature requests:
 8. Add small textboxes next to suggestions to give reasons why certain suggestions are rejected and give contributers a view of those reasons along with the related string.
 
 9. Add the ability to ignore formatting rules for specific strings (perhaps specifying why), on a string by string basis. For example, Romanian quotes are like „this” and sometimes we also have to put quotes around terms that are unquoted in English, this triggers the 'quotes matching' and the 'double-quote' rule.
+
+10. Related to 9, per-language specific regexes or parsing rules for: common mistakes, terminology violations, style and tone, common formulas etc.
